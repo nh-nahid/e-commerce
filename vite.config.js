@@ -5,6 +5,7 @@ export default defineConfig({
   plugins: [],
   base: "/e-commerce/",
   build: {
+    target: 'esnext',
     rollupOptions: {
       input: {
         main: 'index.html',
