@@ -1,11 +1,12 @@
-import "../style.css";
+import "../style/style.css";
+
 import { GoogleAuthProvider, getAuth, signInWithPopup } from "firebase/auth";
-import firebaseApp from '../firebase/config'
+import firebaseApp from '../../firebase/config'
 import { isUserLoggedIn } from "./utils";
 
 
 if(isUserLoggedIn()){
-  location.href = "/index.html"
+  location.href = "./index.html"
 }
 
 const provider = new GoogleAuthProvider();

@@ -1,0 +1,49 @@
+.products-container{
+    display: flex;
+    width: 100%;
+}
+
+.left{
+    width: 20%;
+    text-align: center;
+}
+.right{
+    width: 80%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+
+.product-container{
+    width: calc(calc(100% - 60px)/4);
+    margin-top: 40px;
+
+}
+
+.product-img > img{
+    max-width: 100%;
+    width: 200px;
+    height: 170px;
+}
+.product-title{
+    max-width: 100%;
+    width: 200px;
+}
+
+/* Category Filter */
+
+.filterForm label{
+    font-weight: 600;
+    font-size: 22px;
+    margin-top: 40px;
+    display: inline-block;
+}
+
+.filterForm select{
+    width: 80%;
+    text-align: center;
+    border-radius: 5px;
+    padding: 3px;
+}
