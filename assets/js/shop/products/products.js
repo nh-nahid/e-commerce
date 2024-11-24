@@ -23,39 +23,51 @@ const createProduct = ( image, title, rating, price) => {
 }
 
 
-export async function showAllProducts(filters = {}){
+export async function showAllProducts(){
 
    const productCategories = new Set();
-   const productTitles = new Set();
+   const productCountries = new Set();
 
-    const productsResponse = await fetch('https://fakestoreapi.com/products')
+    const productsResponse = await fetch('../products.json')
+    
     const productData = await productsResponse.json()
-
   productContainer.innerHTML = ""
 
     productData.forEach((props) => {
-        const filters = window.filters ?? {}
+        let filters = window.filters ?? {}
       const filtersKeys = Object.keys(filters)
       const filterPass = {};
 
+      // delete empty key value
+
+    Object.keys(filters).forEach(key => {
+      if(filters[key] === ""){
+        delete filters[key]
+      }
+    })
       if(filtersKeys.length){
         filtersKeys.forEach(key =>{
-          filterPass[key] = props[key] === filters[key]
+          if(key !== "search"){
+            filterPass[key] = props[key] === filters[key]
+          } else{
+            filterPass[key] = props.title.toLowerCase().includes(filters[key].toLowerCase())
+          }
+         
         })
       } 
 
       if(Object.values(filterPass).every(el => el === true)){
-        const {image: image, title: title, rating: rating, price: price, category: productCategory} = props;
+        const {image: image, title: title, rating: rating, price: price, category: productCategory, country: country} = props;
 
-        const productHTML = createProduct(image, title, rating, price);
+        const productHTML = createProduct(image, title, rating, price, country);
 // add for filters data
        productCategories.add(productCategory);
-       productTitles.add(title);
+       productCountries.add(country);
 
 
           productContainer.innerHTML += productHTML;
       }
     
     })
-return [productCategories, productTitles]
+return [productCategories, productCountries]
 }

@@ -6,14 +6,13 @@ export function addOptionsToCategoryFilter(productCategories){
 /** set category to category filter
  * @param {HTMLSelectElement}
  */
-    const categoryFilterSelect = document.querySelector('#categoryFilter')
-
+const categoryFilterSelect = document.querySelector('#categoryFilter')
 /**
  * @type {string[]}
  */
-    const productCountriesArr = Array.from(productCategories)
+    const productCategoriesArr = Array.from(productCategories)
     
-    productCountriesArr.forEach(categoryName => {
+    productCategoriesArr.forEach(categoryName => {
         const categoryOption = document.createElement('option')
         categoryOption.value = categoryName
         categoryOption.innerText = categoryName

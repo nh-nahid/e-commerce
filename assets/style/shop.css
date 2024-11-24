@@ -47,3 +47,12 @@
     border-radius: 5px;
     padding: 3px;
 }
+
+/* Search Filter */
+
+#searchFilter{
+    padding: 5px 1px;
+    text-align: center;
+
+}
+

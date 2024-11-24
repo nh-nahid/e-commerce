@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Teko:wght@300..700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.hero-background{
+    background-image: url('../home-pic/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: absolute;
+    background-size: cover;
+    height: 100vh;
+}
+
+.bg-text {
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+    font-weight: 400;
+    font-family: 'Quicksand';
+    font-size: 30px;
+    border: 1px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .sub-text{
+    font-size: 18px;
+  }
+
+  .hero-btn{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 10px 30px;
+    margin-top: 50px;
+    transition: all 0.5s;
+  }
+
+  .hero-btn:hover{
+    background-color:  #1b9ca5;
+    color: white;
+  }
