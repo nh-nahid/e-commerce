@@ -29,7 +29,7 @@
 }
 .product-title{
     max-width: 100%;
-    width: 200px;
+    width: 250px;
 }
 
 /* Category Filter */
@@ -56,3 +56,140 @@
 
 }
 
+/* Pagination */
+
+.product-pagination{
+    display: flex;
+    gap: 25px;
+    margin: 20px auto;
+    height: max-content;
+}
+
+.pagination-item{
+    padding: 6px 15px;
+    border: 1px solid gray;
+}
+.pagination-item:hover{
+    background-color:rgb(112, 219, 184);
+    transition: 0.5s;
+}
+.pagination-item-link{
+    color: black;
+}
+
+.pagination-item.active{
+    background-color: aquamarine;
+    border: 1px solid rgb(48, 207, 154);
+}
+
+
+/* Loading placeholder */
+
+.loading-img{
+    height: 160px;
+    width: 220px;
+    margin-top: 40px;
+    background-image: linear-gradient(90deg, gray, lightgray);
+    background-size: 440px 180px;
+    overflow: hidden;
+    transition: 0.5s;
+    animation: loading-effect-img 1s infinite;
+}
+.loading-title{
+    height: 20px;
+    width: 160px;
+    background-color: gray;
+    margin-top: 20px;
+    background-image: linear-gradient(90deg, gray, lightgray);
+    background-size: 320px 20px;
+    overflow: hidden;
+    transition: 0.5s;
+    animation: loading-effect-title 1s infinite;
+}
+.loading-rating{
+    height: 20px;
+    width: 130px;
+    background-color: gray;
+    margin-top: 10px;
+    background-image: linear-gradient(90deg, gray, lightgray);
+    background-size: 260px 20px;
+    overflow: hidden;
+    transition: 0.5s;
+    animation: loading-effect-rating 1s infinite;
+}
+.loading-price{
+    height: 20px;
+    width: 100px;
+    background-color: gray;
+    margin-top: 10px;
+    background-image: linear-gradient(90deg, gray, lightgray);
+    background-size: 200px 20px;
+    overflow: hidden;
+    transition: 0.5s;
+    animation: loading-effect-price 1s infinite;
+}
+
+@keyframes loading-effect-img {
+    0% {
+        background-position: 0;
+
+    }
+    50% {
+        background-position: -220px;
+
+    }
+    100% {
+        background-position: 0;
+
+
+    }
+}
+
+
+@keyframes loading-effect-title {
+    0% {
+        background-position: 0;
+
+    }
+    50% {
+        background-position: -100px;
+
+    }
+    100% {
+        background-position: 0;
+
+
+    }
+}
+
+@keyframes loading-effect-rating {
+    0% {
+        background-position: 0;
+
+    }
+    50% {
+        background-position: -100px;
+
+    }
+    100% {
+        background-position: 0;
+
+
+    }
+}
+
+@keyframes loading-effect-price {
+    0% {
+        background-position: 0;
+
+    }
+    50% {
+        background-position: -100px;
+
+    }
+    100% {
+        background-position: 0;
+
+
+    }
+}

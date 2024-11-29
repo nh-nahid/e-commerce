@@ -8,7 +8,6 @@ const productContainer = document.querySelector('.right')
  */
 
 
-
 const createProduct = ( image, title, rating, price) => {
 
     return/*html*/ ` <div class="product-container">
@@ -22,18 +21,72 @@ const createProduct = ( image, title, rating, price) => {
             </div>`
 }
 
+const paginationTemplate = (numberOfPage, activePageNumber = 1) => {
+        const ul = document.createElement('ul');
+      ul.classList.add('product-pagination');
 
-export async function showAllProducts(){
+    for(let i = 1; i <= numberOfPage; i++){
+      const li = document.createElement('li');
+      li.classList.add('pagination-item');
 
+      if(i === activePageNumber){
+        li.classList.add('active')
+      }
+      const a = document.createElement('a');
+      a.classList.add('pagination-item-link');
+      a.href = "#";
+      li.addEventListener('click', function(e){
+        e.preventDefault();
+
+        showAllProducts(Number(a.dataset.pageNumber));
+        scrollTo(0, 0)
+        a.parentElement.classList.add('active')
+        
+      })
+      a.dataset.pageNumber = i
+      a.innerText = i 
+      li.append(a);
+      ul.append(li)
+    }
+    document.querySelector('.right').append(ul)
+} 
+
+export async function showAllProducts(paged = 1){
+    const productsPerPage = 20;
+    productContainer.innerHTML = ""
+  
+  for(let i = 1; i <= productsPerPage; i++){
+
+    productContainer.innerHTML +=    /*html*/ `<div class = "product-container">
+
+    <div class="loading-img"></div>
+    <div class="loading-title"></div>
+    <div class="loading-rating"></div>
+    <div class="loading-price">
+      <span><del></del></span>
+      <span></span>
+    </div>
+    </div>`
+    
+  }
    const productCategories = new Set();
    const productCountries = new Set();
 
     const productsResponse = await fetch('../products.json')
     
     const productData = await productsResponse.json()
-  productContainer.innerHTML = ""
 
-    productData.forEach((props) => {
+  // pagination page calculation
+  const totalPageNumber = Math.ceil(productData.length / productsPerPage);
+
+  if(paged > totalPageNumber){
+    paged = 1;
+  }
+  
+  const productStartNumber = (productsPerPage * paged) - productsPerPage;
+  const productEndNumber = (productsPerPage * paged)
+
+    productData.slice(productStartNumber, productEndNumber).forEach((props, i) => {
         let filters = window.filters ?? {}
       const filtersKeys = Object.keys(filters)
       const filterPass = {};
@@ -60,6 +113,11 @@ export async function showAllProducts(){
         const {image: image, title: title, rating: rating, price: price, category: productCategory, country: country} = props;
 
         const productHTML = createProduct(image, title, rating, price, country);
+
+        if(i === 0){
+          productContainer.innerHTML = ""
+
+        }
 // add for filters data
        productCategories.add(productCategory);
        productCountries.add(country);
@@ -69,5 +127,8 @@ export async function showAllProducts(){
       }
     
     })
+    // insert pagination to DOM
+    paginationTemplate(totalPageNumber, paged)
+
 return [productCategories, productCountries]
 }
