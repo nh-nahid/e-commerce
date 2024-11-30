@@ -1,3 +1,4 @@
+import { isInRange } from "../../utils";
 
 const productContainer = document.querySelector('.right')
 
@@ -100,10 +101,12 @@ export async function showAllProducts(paged = 1){
     })
       if(filtersKeys.length){
         filtersKeys.forEach(key =>{
-          if(key !== "search"){
-            filterPass[key] = props[key] === filters[key]
-          } else{
+          if(key === "search"){
             filterPass[key] = props.title.toLowerCase().includes(filters[key].toLowerCase())
+          } else if(key === "price-range"){
+            filterPass[key] = isInRange(props["price"], filters[key][0], filters[key][1]);
+          } else {
+            filterPass[key] = props[key] === filters[key]
           }
          
         })
