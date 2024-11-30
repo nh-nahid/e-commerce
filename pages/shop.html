@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ecommerce Project</title>
     <script type="module" crossorigin src="/e-commerce/assets/style-BwD88q_8.js"></script>
-    <script type="module" crossorigin src="/e-commerce/assets/shop-Cw2OTcur.js"></script>
+    <script type="module" crossorigin src="/e-commerce/assets/utils-B0fTTfd5.js"></script>
+    <script type="module" crossorigin src="/e-commerce/assets/shop-DNTAbGUW.js"></script>
     <link rel="stylesheet" crossorigin href="/e-commerce/assets/style-Bi_TCcdN.css">
-    <link rel="stylesheet" crossorigin href="/e-commerce/assets/shop-CrF4JxgD.css">
+    <link rel="stylesheet" crossorigin href="/e-commerce/assets/shop-ASyPJvC-.css">
   </head>
   <body>
 
@@ -30,6 +31,16 @@
             <form class="filterForm" id="searchFilter" action="">
               <label for="searchFilter">Search Products</label>
              <input type="search" name="search" id="searchFilter" placeholder="Search products...">
+            </form>
+
+
+            
+            <form class="filterForm" id="rangeFilterForm" action="">
+              <label for="rangeFilter">Price Filter</label>
+              <div>Min: <span id="minPriceValue">0</span></div>
+              <div>Max: <span id="maxPriceValue">2500</span></div>
+              <div id="slider"></div>
+             
             </form>
 
 
