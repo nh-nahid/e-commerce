@@ -1,0 +1,1 @@
+function o(){return!!JSON.parse(localStorage.getItem("user"))?.accessToken}function r(t,a,s){return a=parseFloat(a),s=parseFloat(s),t=parseFloat(t),t>=a&&t<=s}const e=async()=>{if(!Array.isArray(window.allProductsData)){const a=await(await fetch("../products.json")).json();window.allProductsData=a}return allProductsData};export{r as a,e as g,o as i};
