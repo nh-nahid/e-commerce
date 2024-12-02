@@ -30,6 +30,7 @@
 .product-title{
     max-width: 100%;
     width: 250px;
+    color: black;
 }
 
 /* Category Filter */
@@ -128,7 +129,12 @@
     transition: 0.5s;
     animation: loading-effect-price 1s infinite;
 }
+.not-found-msg{
+    margin: 0 auto;
+    margin-top: 250px;
+    font-size: 40px;
 
+}
 @keyframes loading-effect-img {
     0% {
         background-position: 0;
@@ -198,7 +204,10 @@
 .range-input {
     position: relative;
 }
+.noUi-target{
+    width: 100%;
 
+}
 .range-input input {
     position: absolute;
     width: 100%;
@@ -220,5 +229,9 @@ input[type="range"]::-webkit-slider-thumb {
     -webkit-appearance: none;
 }
 .noUi-connect {
-    background: #ca2d32!important;
+    background: #067f88!important;
+}
+#slider{
+    height: 8px;
+
 }

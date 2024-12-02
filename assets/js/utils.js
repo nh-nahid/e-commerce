@@ -18,3 +18,13 @@ export function isInRange(number, min, max){
 
     return false;
 }
+
+export const getAllProductsFromAPI = async () => {
+
+    if(!Array.isArray(window.allProductsData)){
+      const productsResponse = await fetch('../products.json');
+      const productData = await productsResponse.json();
+      window.allProductsData = productData;
+    }
+    return allProductsData;
+  }
