@@ -56,3 +56,34 @@ body{
     background-color:  #1b9ca5;
     color: white;
   }
+.featured-title > h1{
+  text-align: center;
+  margin-top: 40px;
+}
+  .featured{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 30px;
+  }
+
+  .featured1-img{
+    width: 380px;
+    height: 250px;
+    border-radius: 25px 0 25px 0;
+    position: relative;
+    z-index: -1;
+  }
+  .featured2-img{
+    width: 380px;
+    height: 250px;
+    border-radius: 25px 0 25px 0;
+
+  }
+  .featured3-img{
+    width: 380px;
+    height: 250px;
+    border-radius: 25px 0 25px 0;
+
+  }

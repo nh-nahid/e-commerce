@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -6,34 +6,49 @@
     <title>Ecommerce Project</title>
   </head>
   <body>
-
     <header>
-      <div class="logo"><img src="../assets/home-pic/logo.png" alt=""></div>
+      <div class="logo"><img src="../assets/home-pic/logo.png" alt="" /></div>
       <div>
         <li><a href="../index.html">HOME</a></li>
         <li id="#login-item"><a href="login.html">SIGN IN</a></li>
         <li><a href="#">SIGN UP</a></li>
         <li><a href="about.html">ABOUT</a></li>
-        <li><a href="#">SHOP</a></li>
+        <li><a href="shop.html">SHOP</a></li>
       </div>
     </header>
 
-
     <section>
-        <div class="product">
-            <div>
-                <img src="http://placehold.co/200x200" alt="">
-            </div>
-            <div>
-                <h2>Product Title</h2>
-                <div><s>106$</s> 50$</div>
-            </div>
+      <div class="product">
+        <div>
+          <img class="product-image" src="http://placehold.co/200x200" alt="" />
         </div>
+        <div>
+          <h2 class="product-title"></h2>
+          <div class="product-rating"></div>
+          <div class="product-description"></div>
+          <div class="price-div">
+            <s class="regular-price"></s> <span class="sale-price"> </span>
+            <span class="total-price">| 0 BDT</span>
+          </div>
+          <div class="quantity">
+            <button id="decrement">-</button>
+            <input
+              min="1"
+              max="10"
+              value="1"
+              type="number"
+              name="quantity"
+              id="quantity"
+            />
+            <button id="increment">+</button>
+          </div>
+          <div><button class="cart-btn" id="add-to-cart" data-product-id="">Add to cart</button></div>
+          <div><button class="cart-btn" id="wishlist" data-product-id="">Add to Wishlist</button></div>
+        </div>
+      </div>
     </section>
-    
+
     <script type="module" src="../assets/js/common.js"></script>
     <script type="module" src="../assets/js/single.js"></script>
-
-    
   </body>
 </html>

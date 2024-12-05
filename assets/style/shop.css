@@ -31,6 +31,7 @@
     max-width: 100%;
     width: 250px;
     color: black;
+
 }
 
 /* Category Filter */
@@ -227,11 +228,18 @@ input[type="range"]::-webkit-slider-thumb {
     background: #555;
     pointer-events: auto;
     -webkit-appearance: none;
+
 }
 .noUi-connect {
     background: #067f88!important;
+
 }
+
 #slider{
     height: 8px;
 
+
+}
+.noUi-horizontal .noUi-handle{
+    height: 4px;
 }
