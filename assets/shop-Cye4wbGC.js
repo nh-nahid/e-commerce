@@ -1,4 +1,4 @@
-import"./style-BwD88q_8.js";import{g as Ct,a as Pt}from"./utils-DM4pJTMs.js";const G=document.querySelector(".right"),At=(t,e,a,s,l,h)=>` <div class="product-container">
+import{g as Ct,a as Pt}from"./style-Ck-TGNpc.js";const G=document.querySelector(".right"),At=(t,e,a,s,l,h)=>` <div class="product-container">
               <a class="product-link" href="/e-commerce/pages/single.html?id=${+t}"><div class="product-img"><img src="${e}" alt=""></div></a>
              <a class="product-link" href="/e-commerce/pages/single.html?id=${+t}"> <div class="product-title">${a}</div></a>
               <div class="product-rating">${s.rate}</div>
