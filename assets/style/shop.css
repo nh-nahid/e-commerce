@@ -47,7 +47,11 @@
     width: 80%;
     text-align: center;
     border-radius: 5px;
-    padding: 3px;
+    padding: 5px;
+    background-color: #178f97;
+}
+.filterForm select{
+    outline: none;
 }
 
 /* Search Filter */
@@ -55,7 +59,18 @@
 #searchFilter{
     padding: 5px 1px;
     text-align: center;
+}
+.search-input{
+    border: none;
+    background-color: #178f97;
+    border-radius: 5px;
 
+}
+.search-input:focus{
+    outline: 0;
+}
+.search-input::placeholder{
+    color: black;
 }
 
 /* Pagination */
@@ -237,9 +252,20 @@ input[type="range"]::-webkit-slider-thumb {
 
 #slider{
     height: 8px;
-
+    width: 170px;
 
 }
-.noUi-horizontal .noUi-handle{
-    height: 4px;
+.noUi-horizontal .noUi-handle {
+    width: 8px;
+    height: 8px;
+    right: -18px;
+    top: -9px !important;
+    border-radius: 50%;
+    background-color: #178f97;
+}
+.noUi-handle:before{
+    display: none !important;
+}
+.noUi-handle:after{
+    display: none !important;
 }

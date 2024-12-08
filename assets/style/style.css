@@ -19,11 +19,11 @@ header{
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 header> .logo{
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   margin-right: 200px;
 }
 header>div{
@@ -104,3 +104,76 @@ a:hover{
     border: 1px solid gray;
     font-size: 15px;
   }
+
+  
+.cart-btn{
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  
+}
+.cart-btn:hover{
+  background: lightcyan;
+}
+.cart-btn :focus{
+  outline: none;
+}
+/* Off canvas */
+#view-cart{
+  font-size: 22px;
+  color: white;
+  cursor: pointer;
+  transition: color 0.5s;
+}
+#view-cart:hover{
+  color: aquamarine;
+}
+.off-canvas{
+  background-color: #08163B;
+  color: white;
+  width: 33%;
+  position: fixed;
+  top: 0;
+  right: -40%;
+  height: 100dvh;
+  padding: 20px;
+  transition: right 1s;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+}
+.show-off-canvas{
+  right: 0 !important;
+}
+.off-canvas h2{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: inline-block;
+
+}
+.close-icon{
+  margin-top: 5px;
+  margin-right: 5px;
+  font-size: 25px;
+  cursor: pointer;
+  transition: color 0.4s;
+}
+.close-icon:hover{
+  color: rgb(165, 122, 42);
+}
+
+.off-canvas-overlay{
+  display: none;
+  height: 100dvh;
+  width: 100vw;
+  background-color: black;
+  position: fixed;
+  z-index: 9;
+  opacity: 0.4;
+}
+.show-off-canvas-overlay{
+  display: block !important;
+}

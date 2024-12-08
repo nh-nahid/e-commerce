@@ -85,18 +85,3 @@
     cursor: pointer;
 
 }
-
-.cart-btn{
-    margin-top: 20px;
-    padding: 10px 20px;
-    font-size: 15px;
-    border-radius: 5px;
-    border: 1px solid gray;
-    
-}
-.cart-btn:hover{
-    background: lightcyan;
-}
-.cart-btn :focus{
-    outline: none;
-}
