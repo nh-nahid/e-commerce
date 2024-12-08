@@ -22,7 +22,7 @@ export const showProductDetails = async (productID) =>{
         rating1.innerText = product.rating.count + ` Ratings`;
         salePrice1.innerText = product.salePrice;
         regularPrice1.innerText = product.price;
-        totalPrice1.innerText = (product.salePrice)
+        totalPrice1.innerText = (product.salePrice) 
         description.innerText = product.description;
         addToCartEl.dataset.productID = product.id;
         wishlistEl.dataset.productID = product.id
