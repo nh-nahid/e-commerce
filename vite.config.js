@@ -14,6 +14,7 @@ export default defineConfig({
         login: 'pages/login.html',
         about: 'pages/about.html',
         shop: 'pages/shop.html',
+        single: 'pages/single.html',
         
       },
     },
