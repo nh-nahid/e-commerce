@@ -20,6 +20,7 @@ header{
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+
 }
 header> .logo{
   width: 100px;
@@ -63,7 +64,7 @@ a:hover{
   height: 100vh;
   background-color: #ddd;
 }
-
+/* 
 .login-section{
     display: flex;
     flex-direction: column;
@@ -84,7 +85,7 @@ a:hover{
     padding: 0 50px;
     font-size: 13px;
     cursor: pointer;
-  }
+  } */
   form{
     display: flex;
     flex-direction: column;

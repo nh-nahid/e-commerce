@@ -1,5 +1,24 @@
 import "../style/style.css";
 
+const signUpButton = document.getElementById('signUp')
+const signInButton = document.getElementById('signIn')
+const container = document.getElementById('container')
+
+signUpButton.addEventListener('click', function(){
+  container.classList.add('right-panel-active')
+});
+
+signInButton.addEventListener('click', function(){
+  container.classList.remove('right-panel-active')
+});
+
+
+
+
+
+
+
+
 import { GoogleAuthProvider, getAuth, signInWithPopup } from "firebase/auth";
 import firebaseApp from '../../firebase/config'
 import { isUserLoggedIn } from "./utils";
@@ -17,7 +36,6 @@ const auth = getAuth(firebaseApp);
   const loginWithGoogle = document.querySelector('#login-with-google')
 
   loginWithGoogle.addEventListener('click', function(){
-    
 signInWithPopup(auth, provider)
 .then((result) => {
   // This gives you a Google Access Token. You can use it to access the Google API.
