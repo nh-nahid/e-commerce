@@ -16,7 +16,7 @@ const addProductToCart = (productId, productQuantity) => {
  
 
 export const cartButtonInit = () => {
-    const addToCartEl = document.querySelector('#add-to-cart');
+    const addToCartEl = document.querySelector('#cart');
     const productId = addToCartEl.dataset.productId;
     addToCartEl.addEventListener('click', () => {
         const quantity = document.querySelector('#quantity').value;

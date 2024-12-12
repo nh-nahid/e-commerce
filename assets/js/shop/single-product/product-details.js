@@ -12,7 +12,7 @@ export const showProductDetails = async (productID) =>{
         const regularPrice1 = document.querySelector('.regular-price');
         const totalPrice1 = document.querySelector('.total-price');
         const description = document.querySelector('.product-description');
-        const addToCartEl = document.querySelector('#add-to-cart');
+        const addToCartEl = document.querySelector('#cart');
         const wishlistEl = document.querySelector('#wishlist');
         const quantityInputEl = document.querySelector('#quantity');
 
@@ -24,7 +24,6 @@ export const showProductDetails = async (productID) =>{
         regularPrice1.innerText = product.price;
         totalPrice1.innerText = (product.salePrice) 
         description.innerText = product.description;
-        addToCartEl.dataset.productID = product.id;
+        addToCartEl.dataset.productID =Number(product.id);
         wishlistEl.dataset.productID = product.id
-    
     }
