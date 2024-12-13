@@ -6,9 +6,9 @@ import { quantityInit } from "./shop/single-product/quantity";
 import { cartButtonInit } from "./shop/single-product/cart";
 import { wishlistInit } from "./shop/single-product/wishlist";
 
-const productID = Number(location.href.split("id=")[1]);
-
-showProductDetails(productID).then(() => {
+const productId = Number(location.href.split("id=")[1]);
+    
+showProductDetails(productId).then(() => {
     quantityInit();
     cartButtonInit();
     wishlistInit();

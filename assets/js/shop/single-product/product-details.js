@@ -24,6 +24,6 @@ export const showProductDetails = async (productID) =>{
         regularPrice1.innerText = product.price;
         totalPrice1.innerText = (product.salePrice) 
         description.innerText = product.description;
-        addToCartEl.dataset.productID =Number(product.id);
-        wishlistEl.dataset.productID = product.id
+        addToCartEl.dataset.productId = product.id;
+        wishlistEl.dataset.productId = product.id
     }

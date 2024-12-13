@@ -141,7 +141,7 @@ a:hover{
   height: 100dvh;
   padding: 20px;
   transition: right 1s;
-  z-index: 10;
+  z-index: 500;
   display: flex;
   justify-content: space-between;
 }
