@@ -1,4 +1,6 @@
-import { isUserLoggedIn } from "./utils.js"
+import { getProductDetails, getProductPrice, getTotalCartData, isUserLoggedIn, viewOffCanvasCart } from "./utils.js"
+import Odometer from "odometer";
+import 'odometer/themes/odometer-theme-default.css'
 
 const logInMenuItem = document.querySelector('#login-item')
 
@@ -8,26 +10,44 @@ if(isUserLoggedIn()){
 }
 
 const cartBtn = document.querySelector('.view-cart');
-const offCanvasContainer = document.querySelector('.off-canvas');
-const offCanvasOverlay = document.querySelector('.off-canvas-overlay');
-const offCanvasClose = document.querySelector('.close-icon');
 
 
 cartBtn.addEventListener('click', function(e){
     e.preventDefault();
-    offCanvasContainer.classList.add('show-off-canvas')
-    offCanvasOverlay.classList.add('show-off-canvas-overlay')
+    viewOffCanvasCart()
     
 });
-offCanvasOverlay.addEventListener('click',function(e){
-    e.preventDefault()
-    offCanvasContainer.classList.remove('show-off-canvas')
-    offCanvasOverlay.classList.remove('show-off-canvas-overlay')
 
-})
-offCanvasClose.addEventListener('click',function(e){
-    e.preventDefault()
-    offCanvasContainer.classList.remove('show-off-canvas')
-    offCanvasOverlay.classList.remove('show-off-canvas-overlay')
 
+
+getTotalCartData().then(cartData => {
+
+    
+const priceMeter = document.createElement('div');
+
+priceMeter.innerHTML = /*html*/ `
+            <div class="priceMeter">
+                <div>Item : <span class="priceMeterItemNumber">${cartData.totalCartItem}</span></div>
+                <div>$<span class="priceMeterSubtotal">${cartData.totalPrice}</span></div>
+            </div>
+`
+document.querySelector("body").append(priceMeter);
+const priceMeterContainer = document.querySelector('.priceMeter');
+
+priceMeterContainer.addEventListener('click', () => {
+    viewOffCanvasCart()
 })
+
+
+  new Odometer({
+     el: document.querySelector('.priceMeterSubtotal'),   
+     // Any option (other than auto and selector) can be passed in here
+     value: cartData.totalPrice,
+     format: '(,ddd).dd',
+     theme: 'default'
+   });
+})
+
+
+
+// odometer element

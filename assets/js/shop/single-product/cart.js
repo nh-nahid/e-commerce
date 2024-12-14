@@ -1,4 +1,7 @@
-const addProductToCart = (productId, productQuantity) => {
+import { getAllProductsFromAPI, getTotalCartData} from "../../utils";
+
+const addProductToCart = async (productId, productQuantity) => {
+
     const prevCartData = JSON.parse(localStorage.getItem('dom-commerce-cart-product')) ?? []
   
     const existingProduct = prevCartData.find(cartData => cartData.productId === productId);
@@ -12,10 +15,20 @@ const addProductToCart = (productId, productQuantity) => {
     } 
     
     localStorage.setItem('dom-commerce-cart-product', JSON.stringify(prevCartData))
-}
- 
 
-export const cartButtonInit = () => {
+    // price meter
+    const priceMeterPrice = document.querySelector('.priceMeterSubtotal');
+    const priceMeterItem = document.querySelector('.priceMeterItemNumber');
+  
+    const cartData  = await getTotalCartData()
+    priceMeterPrice.innerHTML = cartData.totalPrice
+
+    priceMeterItem.innerText = cartData.totalCartItem
+
+}
+
+
+export const cartButtonInit = () => {    
     const addToCartEl = document.querySelector('#cart');
     const productId = addToCartEl.dataset.productId;
     addToCartEl.addEventListener('click', () => {
@@ -24,5 +37,3 @@ export const cartButtonInit = () => {
     }
         
 )}
-
-cartButtonInit()
