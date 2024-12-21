@@ -109,14 +109,16 @@ a:hover{
   
 .cart-btn{
   margin-top: 20px;
-  padding: 10px 20px;
-  font-size: 15px;
+  padding: 8px 12px;
+  font-size: 12px;
   border-radius: 5px;
   border: 1px solid gray;
+  background-color: rgb(129, 179, 13);
+  color: white;
   
 }
 .cart-btn:hover{
-  background: lightcyan;
+  background: rgb(106, 150, 5)
 }
 .cart-btn :focus{
   outline: none;
@@ -143,16 +145,22 @@ a:hover{
   transition: right 1s;
   z-index: 500;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  overflow-y: scroll;
 }
 .show-off-canvas{
   right: 0 !important;
 }
+.cart-header{
+  display: flex;
+  width: 100%;
+  justify-content: space-between !important;
+  
+}
 .off-canvas h2{
   margin: 0;
   padding: 0;
-  text-align: center;
-  display: inline-block;
+  font-size: 30px;
 
 }
 .close-icon{
@@ -179,6 +187,74 @@ a:hover{
   display: block !important;
 }
 
+/* Cart product */
+.cart-product{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cart-product-details{
+margin-left: 30px;
+margin-right: 15px;
+}
+.cart-product-details>div>h4{
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 14px;
+}
+.cart-product-details>h5{
+  margin: 0;
+  color: chocolate;
+}
+.cart-product>div>img{
+  width: 120px;
+  height: 120px;
+}
+.cart-remove{
+  margin-right: 10px;
+  margin-left: 20px;
+  
+}
+
+.off-cart-quantity{
+ margin: 0;
+ padding: 1px 0 3px 0;
+ border-radius: 0;
+ border: none;
+ text-align: center;
+ background-color: #27d2df;
+ outline: none;
+
+
+}
+.off-canvas-btn{
+  background-color: #27d2df;
+  border-color: #27d2df;
+  cursor: pointer;
+}
+.off-canvas-cart-remove{
+  font-size: 20px;
+  color: rgb(20, 238, 154);
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.off-canvas-cart-remove:hover{
+  color: rgb(12, 146, 95);
+
+}
+/* Chrome, Safari, Edge, Opera */
+.off-cart-quantity::-webkit-outer-spin-button,
+.off-cart-quantity::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.off-cart-quantity[type=number] {
+  -moz-appearance: textfield;
+} 
 /* Price Meter */
 
 .priceMeter{

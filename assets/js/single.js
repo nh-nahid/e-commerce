@@ -1,6 +1,5 @@
 import "../style/style.css"
 import "../style/single.css"
-import { getAllProductsFromAPI } from "./utils";
 import { showProductDetails } from "./shop/single-product/product-details";
 import { quantityInit } from "./shop/single-product/quantity";
 import { cartButtonInit } from "./shop/single-product/cart";

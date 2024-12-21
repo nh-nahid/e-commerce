@@ -46,11 +46,15 @@ export const getProductPrice = (price1, price2) => {
   return price1 > price2 ? price2 : price1;
 };
 
+export const getAllCartIds = () =>{
+  const cartProducts = JSON.parse(localStorage.getItem("dom-commerce-cart-product")) ?? [];
+   return cartProducts?.map((cartProduct) => cartProduct.productId);
+}
 export const getTotalCartData = async () => {
   const cartProducts = JSON.parse(
     localStorage.getItem("dom-commerce-cart-product")
-  );
-  const allCartIds = cartProducts?.map((cartProduct) => cartProduct.productId);
+  ) ?? [];
+  const allCartIds = getAllCartIds()
 
   if (allCartIds === undefined) {
     return {
@@ -109,3 +113,6 @@ const offCanvasClose = document.querySelector('.close-icon');
 });
 
 };
+
+/**for prettier html formatting*/
+export const html = String.raw

@@ -1,4 +1,5 @@
 import { getAllProductsFromAPI, getTotalCartData} from "../../utils";
+import { offCanvasCartProducts } from "../off-canvas/off-canvas";
 
 const addProductToCart = async (productId, productQuantity) => {
 
@@ -33,7 +34,8 @@ export const cartButtonInit = () => {
     const productId = addToCartEl.dataset.productId;
     addToCartEl.addEventListener('click', () => {
         const quantity = document.querySelector('#quantity').value;
-        addProductToCart(productId,quantity)
+        addProductToCart(productId,quantity).then(() => {
+        })
     }
         
 )}

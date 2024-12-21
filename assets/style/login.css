@@ -1,11 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-  box-sizing: border-box;
-}
 
 
 .login-section{
@@ -42,7 +37,7 @@ a{
   margin: 15px 0;
 }
 
-button{
+.log-btn{
   border-radius: 20px;
   border: 1px solid #ff4b2b;
   background: #ff4b2b;
@@ -62,8 +57,7 @@ button:focus{
   outline: none;
 }
 
-button.btn{
-  background-color: transparent;
+button.log-btn{
   border-color: #fff;
 }
 

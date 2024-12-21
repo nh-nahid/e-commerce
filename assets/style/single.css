@@ -30,8 +30,9 @@
     width: 85px;
     padding: 10px 10px;
     font-size: 12px;
-    background-color: rgb(240, 237, 237);
+    background-color: rgb(32, 142, 146);
     text-align: center;
+    color: white;
 
 }
 #quantity:focus{
@@ -79,11 +80,18 @@
     padding: 4px 10px 7px 10px;
     font-size: 18px;
     cursor: pointer;
+    background-color: rgb(19, 136, 97);
+    border: 2px solid rgb(19, 136, 97);
+    color: white;
 
 }
 #decrement{
     padding: 4px 11px 7px 11px;
     font-size: 18px;
     cursor: pointer;
+    cursor: pointer;
+    background-color: rgb(19, 136, 97);
+    border: 2px solid rgb(19, 136, 97);
+    color: white;
 
 }
