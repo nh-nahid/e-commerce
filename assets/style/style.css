@@ -146,7 +146,6 @@ a:hover{
   z-index: 500;
   display: flex;
   flex-direction: column;
-  overflow-y: scroll;
 }
 .show-off-canvas{
   right: 0 !important;
@@ -156,6 +155,29 @@ a:hover{
   width: 100%;
   justify-content: space-between !important;
   
+}
+
+.cart-footer{
+  padding-top: 30px;
+}
+
+.cart-footer>div>h4{
+  margin: 0;
+  color: #a1f3a1;
+}
+.cart-footer>div>a{
+  margin: 0;
+  color: black;
+  background-color: rgb(32, 188, 240);
+  display: block;
+  padding: 3px;
+  border-radius: 2px;
+  text-align: center;
+  margin-top: 10px;
+}
+.cart-footer>div>a:hover{
+  background-color: rgb(110, 200, 230);
+
 }
 .off-canvas h2{
   margin: 0;
@@ -186,7 +208,10 @@ a:hover{
 .show-off-canvas-overlay{
   display: block !important;
 }
-
+.cart-product-container{
+  height: 70dvh;
+  overflow-y: scroll;
+}
 /* Cart product */
 .cart-product{
   margin-top: 30px;
@@ -239,6 +264,7 @@ margin-right: 15px;
   color: rgb(20, 238, 154);
   cursor: pointer;
   transition: all 0.5s;
+  margin-right: 10px;
 }
 .off-canvas-cart-remove:hover{
   color: rgb(12, 146, 95);
@@ -272,8 +298,20 @@ margin-right: 15px;
     font-size: 18px;
     opacity: 0.7;
     transition: background 0.5s;
+    font-family: 'teko' !important;
 }
 
 .priceMeter:hover{
   background: rgb(69, 200, 243);
+}
+
+.odometer-inside{
+  font-family: 'teko' !important;
+}
+
+.off-canvas-horizontal-line{
+width: 100%;
+margin-top: 20px;
+height: 1px;
+color: lightgray;
 }

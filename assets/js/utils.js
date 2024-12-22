@@ -91,28 +91,9 @@ export const getTotalCartData = async () => {
   };
 };
 
-export const viewOffCanvasCart = () => {
-  const offCanvasContainer = document.querySelector(".off-canvas");
-  const offCanvasOverlay = document.querySelector(".off-canvas-overlay");
-const offCanvasClose = document.querySelector('.close-icon');
 
-  offCanvasContainer.classList.add("show-off-canvas");
-  offCanvasOverlay.classList.add("show-off-canvas-overlay");
 
-  offCanvasOverlay.addEventListener("click", function (e) {
-    e.preventDefault();
-    offCanvasContainer.classList.remove("show-off-canvas");
-    offCanvasOverlay.classList.remove("show-off-canvas-overlay");
-  });
 
-  offCanvasClose.addEventListener('click',function(e){
-    e.preventDefault()
-    offCanvasContainer.classList.remove('show-off-canvas')
-    offCanvasOverlay.classList.remove('show-off-canvas-overlay')
-
-});
-
-};
 
 /**for prettier html formatting*/
 export const html = String.raw

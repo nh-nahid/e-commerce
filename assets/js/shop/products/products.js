@@ -14,8 +14,8 @@ const createProduct = (productID, image, title, rating, price, salePrice) => {
              <a class="product-link" href="/e-commerce/pages/single.html?id=${+productID}"> <div class="product-title">${title}</div></a>
               <div class="product-rating">${rating.rate}</div>
               <div class="product-price">
-                <span><del>${price}</del></span>
-                <span>${salePrice}</span>
+                <span><del>$ ${price}</del></span>
+                <span>$ ${salePrice}</span>
               </div>
             </div>`;
 };

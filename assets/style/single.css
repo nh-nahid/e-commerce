@@ -95,3 +95,22 @@
     color: white;
 
 }
+
+.add-cart-btn-section{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+.add-cart-msg{
+    text-align: center;
+    background-color: #a1f3a1;
+    font-size: 13px;
+    padding: 5px 30px;
+    margin: 20px 30px;
+    border-radius: 5px;
+    border-left: 3px solid #04aa6d;
+    font-family: 'quick-sand';
+  }
+.add-cart-msg-success{ 
+    display: block;
+}

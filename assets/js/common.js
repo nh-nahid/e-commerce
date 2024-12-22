@@ -1,14 +1,10 @@
 import {
-  getAllCartIds,
-  getProductDetails,
-  getProductPrice,
   getTotalCartData,
   isUserLoggedIn,
-  viewOffCanvasCart,
 } from "./utils.js";
 import Odometer from "odometer";
 import "odometer/themes/odometer-theme-default.css";
-import { offCanvasCartProducts } from "./shop/off-canvas/off-canvas.js";
+import { offCanvasCart, offCanvasOverlayInit, viewOffCanvasCart } from "./shop/off-canvas/off-canvas.js";
 
 const logInMenuItem = document.querySelector("#login-item");
 
@@ -29,7 +25,7 @@ getTotalCartData().then((cartData) => {
   priceMeter.innerHTML = /*html*/ `
             <div class="priceMeter">
                 <div>Item : <span class="priceMeterItemNumber">${cartData.totalCartItem}</span></div>
-                <div>$<span class="priceMeterSubtotal">${cartData.totalPrice}</span></div>
+                <div><span class="priceMeterSubtotal">${cartData.totalPrice}</span></div>
             </div>
 `;
   document.querySelector("body").append(priceMeter);
@@ -48,3 +44,5 @@ getTotalCartData().then((cartData) => {
   });
 });
 
+offCanvasCart()
+offCanvasOverlayInit()
