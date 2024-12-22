@@ -1,10 +1,10 @@
-import{g as Ct,a as Pt}from"./style-DGftI2aW.js";const G=document.querySelector(".right"),At=(t,e,a,s,l,h)=>` <div class="product-container">
+import{g as Ct,a as Pt}from"./style-DGiNGuVl.js";const G=document.querySelector(".right"),At=(t,e,a,s,l,h)=>` <div class="product-container">
               <a class="product-link" href="/e-commerce/pages/single.html?id=${+t}"><div class="product-img"><img src="${e}" alt=""></div></a>
              <a class="product-link" href="/e-commerce/pages/single.html?id=${+t}"> <div class="product-title">${a}</div></a>
               <div class="product-rating">${s.rate}</div>
               <div class="product-price">
-                <span><del>${l}</del></span>
-                <span>${h}</span>
+                <span><del>$ ${l}</del></span>
+                <span>$ ${h}</span>
               </div>
             </div>`,yt=(t,e=1)=>{const a=document.createElement("ul");a.classList.add("product-pagination");for(let s=1;s<=t;s++){const l=document.createElement("li");l.classList.add("pagination-item"),s===e&&l.classList.add("active");const h=document.createElement("a");h.classList.add("pagination-item-link"),h.href="#",l.addEventListener("click",function(d){d.preventDefault(),K(Number(h.dataset.pageNumber)),scrollTo(0,0),h.parentElement.classList.add("active")}),h.dataset.pageNumber=s,h.innerText=s,l.append(h),a.append(l)}document.querySelector(".right").append(a)},Vt=async()=>{const t=await Ct(),e=[];return t.forEach(a=>{let s=window.filters??{};const l=Object.keys(s),h={};Object.keys(s).forEach(d=>{s[d]===""&&delete s[d]}),l.length&&l.forEach(d=>{d==="search"?h[d]=a.title.toLowerCase().includes(s[d].toLowerCase()):d==="price-range"?h[d]=Pt(a.price,s[d][0],s[d][1]):h[d]=a[d]===s[d]}),Object.values(h).every(d=>d===!0)&&e.push(a)}),e};async function K(t=1){G.innerHTML="";for(let p=1;p<=20;p++)G.innerHTML+=`<div class = "product-container">
 
