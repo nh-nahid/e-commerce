@@ -59,7 +59,8 @@ export const cartButtonInit = () => {
         const quantity = document.querySelector('#quantity').value;
         addProductToCart(productId,quantity).then(() => {
             offCanvasCart()
-            // addCartMsg()
+            addToCartEl.innerText = "Added to cart"
+            addToCartEl.style.backgroundColor = "grey"
         })
     }
         
