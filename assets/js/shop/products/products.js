@@ -10,8 +10,8 @@ const productContainer = document.querySelector(".right");
 
 const createProduct = (productID, image, title, rating, price, salePrice) => {
   return /*html*/ ` <div class="product-container">
-              <a class="product-link" href="/e-commerce/pages/single.html?id=${+productID}"><div class="product-img"><img src="${image}" alt=""></div></a>
-             <a class="product-link" href="/e-commerce/pages/single.html?id=${+productID}"> <div class="product-title">${title}</div></a>
+              <a class="product-link" href="single.html?id=${+productID}"><div class="product-img"><img src="${image}" alt=""></div></a>
+             <a class="product-link" href="single.html?id=${+productID}"> <div class="product-title">${title}</div></a>
               <div class="product-rating">${rating.rate}</div>
               <div class="product-price">
                 <span><del>$ ${price}</del></span>

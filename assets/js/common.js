@@ -25,7 +25,7 @@ getTotalCartData().then((cartData) => {
   priceMeter.innerHTML = /*html*/ `
             <div class="priceMeter">
                 <div>Item : <span class="priceMeterItemNumber">${cartData.totalCartItem}</span></div>
-                <div><span class="priceMeterSubtotal">${cartData.totalPrice}</span></div>
+                <div>$<span class="priceMeterSubtotal">${cartData.totalPrice}</span></div>
             </div>
 `;
   document.querySelector("body").append(priceMeter);

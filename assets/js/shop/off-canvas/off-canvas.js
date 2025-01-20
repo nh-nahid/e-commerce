@@ -42,7 +42,6 @@ export function offCanvasCartProducts({
     imageLink,productTilte,productCategory,productPrice,productId,quantity
 }) {
   const offCanvasContainer = document.querySelector(".cart-product-container");
-
   offCanvasContainer.innerHTML += html`
     <div class="cart-product">
       <div>
@@ -89,17 +88,18 @@ const offCanvasCartFooter = async () => {
   const shippingCost = 50;
 
   const offCanvasFooter = document.querySelector('.cart-footer')
-  offCanvasFooter.innerHTML += html`
+  offCanvasFooter.innerHTML = html`
   <div><h4>SubTotal: $ ${cartTotalPrice.toFixed(2)}</h4></div>
   <div><h4>Tax: $ ${tax.toFixed(2)}</h4></div>
   <div><h4>Shipping Cost: $ ${shippingCost.toFixed(2)}</h4></div>
   <hr>
   <div><h4>Total: $ ${(cartTotalPrice + tax + shippingCost).toFixed(2)}</h4></div>
-  <div><a href="#">Checkout</a></div>
+  <div><a href="../../../pages/checkout.html">Checkout</a></div>
 `
 }
 
 export const offCanvasCart = () => {
+
 
 
 const cartIds = getAllCartIds();
@@ -120,7 +120,11 @@ const cartProductsData = cartIds.map((id) => {
 });
 
 Promise.all(cartProductsData).then(allCartData => {
+  const offCanvasContainer = document.querySelector(".cart-product-container");
+
+offCanvasContainer.innerHTML = "";
     allCartData.forEach(productData =>{
+     
         offCanvasCartProducts(productData)
     })
 }).finally(() =>{

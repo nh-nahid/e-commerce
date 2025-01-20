@@ -43,10 +43,39 @@
         </div>
     </header>
 
-            <div class="headline">
-                <h2>This is About Page</h2>
+    <div class="checkout-form-box">
+            <h2 class="checkout-header">Please provide your details</h2>
+            <h3 class="order-submit-message"></h3>
+            <form id="checkout-form">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="text" id="phone" name="phone" required />
+              </div>
+              <div id="address-fields">
+                <div id="fields-depend-on-country">
+                  
+
+                </div>
+              </div>
+
+              <div class="shipping-method">
+                <label>Shipping Method</label>
+                <div>
+                  <input type="radio" id="cod" name="shippingMethod" value="cod" checked />
+                  <label for="cod">Cash on Delivery</label>
+                </div>
+              </div>
+              <div><button class="checkout-proceed-btn">Proceed</button></div>
             </div>
-    <script type="module" src="../assets/js/about.js"></script>
+    <script type="module" src="../assets/js/checkout.js"></script>
     <script type="module" src="../assets/js/common.js"></script>
   </body>
 </html>

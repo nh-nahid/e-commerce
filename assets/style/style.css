@@ -168,7 +168,7 @@ a:hover{
 .cart-footer>div>a{
   margin: 0;
   color: black;
-  background-color: rgb(32, 188, 240);
+  background-color: greenyellow;
   display: block;
   padding: 3px;
   border-radius: 2px;
@@ -176,7 +176,7 @@ a:hover{
   margin-top: 10px;
 }
 .cart-footer>div>a:hover{
-  background-color: rgb(110, 200, 230);
+  background-color: rgba(172, 255, 47, 0.637);
 
 }
 .off-canvas h2{
@@ -212,6 +212,22 @@ a:hover{
   height: 70dvh;
   overflow-y: scroll;
 }
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+  ::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+  ::-webkit-scrollbar-thumb {
+  background: #888; 
+    border-radius:10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  
+  background: #555; 
+} 
+
 /* Cart product */
 .cart-product{
   margin-top: 30px;

@@ -1,0 +1,1443 @@
+{
+    "Afghanistan": [
+        "Address",
+        "City",
+        "Postal code"
+    ],
+    "Åland Islands": [
+        "Address",
+        "Postal code",
+        "City"
+    ],
+    "Albania": [
+        "Address",
+        "City",
+        "County",
+        "Postal code"
+    ],
+    "Algeria": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "American Samoa": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Andorra": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Angola": [
+        "Address",
+        "City",
+        "Province"
+    ],
+    "Anguilla": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Antarctica": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Antigua and Barbuda": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Argentina": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Armenia": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Aruba": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Australia": [
+        "Address",
+        "Suburb",
+        "State",
+        "Postcode"
+    ],
+    "Austria": [
+        "Address",
+        "Postal code",
+        "City"
+    ],
+    "Azerbaijan": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Bahamas": [
+        "Address",
+        "City",
+        "State/County"
+    ],
+    "Bahrain": [
+        "Address",
+        "City",
+        "Postal code"
+    ],
+    "Bangladesh": [
+        "Address",
+        "City",
+        "District",
+        "Postal code"
+    ],
+    "Barbados": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Belarus": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Belau": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Belgium": [
+        "Address",
+        "Postal code",
+        "City"
+    ],
+    "Belize": [
+        "Address",
+        "City",
+        "State/County"
+    ],
+    "Benin": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Bermuda": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Bhutan": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Bolivia": [
+        "Address",
+        "City",
+        "Department"
+    ],
+    "Bonaire, Saint Eustatius and Saba": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Bosnia and Herzegovina": [
+        "Address",
+        "Postal code",
+        "City"
+    ],
+    "Botswana": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Bouvet Island": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Brazil": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "British Indian Ocean Territory": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Brunei": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Bulgaria": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Burkina Faso": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Burundi": [
+        "Address",
+        "City",
+        "Postal code"
+    ],
+    "Cambodia": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Cameroon": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Canada": [
+        "Address",
+        "City",
+        "Province",
+        "Postal code"
+    ],
+    "Cape Verde": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Cayman Islands": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Central African Republic": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Chad": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Chile": [
+        "Address",
+        "City",
+        "Region",
+        "Postal code"
+    ],
+    "China": [
+        "Address",
+        "City",
+        "Province",
+        "Postal code"
+    ],
+    "Christmas Island": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Cocos (Keeling) Islands": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Colombia": [
+        "Address",
+        "City",
+        "Department",
+        "Postal code"
+    ],
+    "Comoros": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Congo (Brazzaville)": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Congo (Kinshasa)": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Cook Islands": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Costa Rica": [
+        "Address",
+        "City",
+        "Province",
+        "Postal code"
+    ],
+    "Croatia": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Cuba": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Curaçao": [
+        "Address",
+        "City",
+        "State/County"
+    ],
+    "Cyprus": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Czech Republic": [
+        "Address",
+        "City",
+        "Postal code"
+    ],
+    "Denmark": [
+        "Address",
+        "Postal code",
+        "City"
+    ],
+    "Djibouti": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Dominica": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Dominican Republic": [
+        "Address",
+        "City",
+        "Province",
+        "Postal code"
+    ],
+    "Ecuador": [
+        "Address",
+        "City",
+        "Province",
+        "Postal code"
+    ],
+    "Egypt": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "El Salvador": [
+        "Address",
+        "City",
+        "Department",
+        "Postal code"
+    ],
+    "Equatorial Guinea": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Eritrea": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Estonia": [
+        "Address",
+        "Postal code",
+        "City"
+    ],
+    "Eswatini": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Ethiopia": [
+        "Address",
+        "City",
+        "Postal code"
+    ],
+    "Falkland Islands": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Faroe Islands": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Fiji": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Finland": [
+        "Address",
+        "Postal code",
+        "City"
+    ],
+    "France": [
+        "Address",
+        "Postal code",
+        "City"
+    ],
+    "French Guiana": [
+        "Address",
+        "City",
+        "Postal code"
+    ],
+    "French Polynesia": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "French Southern Territories": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Gabon": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Gambia": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Georgia": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Germany": [
+        "Address",
+        "Postal code",
+        "City",
+        "State/County"
+    ],
+    "Ghana": [
+        "Address",
+        "City",
+        "Region",
+        "Postal code"
+    ],
+    "Gibraltar": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Greece": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Greenland": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Grenada": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Guadeloupe": [
+        "Address",
+        "City",
+        "Postal code"
+    ],
+    "Guam": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Guatemala": [
+        "Address",
+        "City",
+        "Department",
+        "Postal code"
+    ],
+    "Guernsey": [
+        "Address",
+        "City",
+        "Parish",
+        "Postal code"
+    ],
+    "Guinea": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Guinea-Bissau": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Guyana": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Haiti": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Heard Island and McDonald Islands": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Honduras": [
+        "Address",
+        "City",
+        "Department",
+        "Postal code"
+    ],
+    "Hong Kong": [
+        "Address",
+        "Town / District",
+        "Region",
+        "Postal code"
+    ],
+    "Hungary": [
+        "Postal code",
+        "City",
+        "Address",
+        "County"
+    ],
+    "Iceland": [
+        "Address",
+        "Postal code",
+        "City"
+    ],
+    "India": [
+        "Address",
+        "City",
+        "State",
+        "PIN Code"
+    ],
+    "Indonesia": [
+        "Address",
+        "City",
+        "Province",
+        "Postal code"
+    ],
+    "Iran": [
+        "State/County",
+        "City",
+        "Address",
+        "Postal code"
+    ],
+    "Iraq": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Ireland": [
+        "Address",
+        "City",
+        "County",
+        "Eircode"
+    ],
+    "Isle of Man": [
+        "Address",
+        "City",
+        "Postal code"
+    ],
+    "Israel": [
+        "Address",
+        "Postal code",
+        "City"
+    ],
+    "Italy": [
+        "Address",
+        "Postal code",
+        "City",
+        "Province"
+    ],
+    "Ivory Coast": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Jamaica": [
+        "Address",
+        "Town / City / Post Office",
+        "Parish",
+        "Postal Code"
+    ],
+    "Japan": [
+        "Postal code",
+        "Prefecture",
+        "City",
+        "Address"
+    ],
+    "Jersey": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Jordan": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Kazakhstan": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Kenya": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Kiribati": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Kuwait": [
+        "Address",
+        "City",
+        "Postal code"
+    ],
+    "Kyrgyzstan": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Laos": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Latvia": [
+        "Address",
+        "City",
+        "Municipality",
+        "Postal code"
+    ],
+    "Lebanon": [
+        "Address",
+        "City",
+        "Postal code"
+    ],
+    "Lesotho": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Liberia": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Libya": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Liechtenstein": [
+        "Address",
+        "Postal code",
+        "City"
+    ],
+    "Lithuania": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Luxembourg": [
+        "Address",
+        "City",
+        "Postal code"
+    ],
+    "Macao": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Madagascar": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Malawi": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Malaysia": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Maldives": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Mali": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Malta": [
+        "Address",
+        "City",
+        "Postal code"
+    ],
+    "Marshall Islands": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Martinique": [
+        "Address",
+        "City",
+        "Postal code"
+    ],
+    "Mauritania": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Mauritius": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Mayotte": [
+        "Address",
+        "City",
+        "Postal code"
+    ],
+    "Mexico": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Micronesia": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Moldova": [
+        "Address",
+        "City",
+        "Municipality / District",
+        "Postal code"
+    ],
+    "Monaco": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Mongolia": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Montenegro": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Montserrat": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Morocco": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Mozambique": [
+        "Address",
+        "City",
+        "Province"
+    ],
+    "Myanmar": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Namibia": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Nauru": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Nepal": [
+        "Address",
+        "City",
+        "State / Zone",
+        "Postal code"
+    ],
+    "Netherlands": [
+        "Address",
+        "Postal code",
+        "City"
+    ],
+    "New Caledonia": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "New Zealand": [
+        "Address",
+        "City",
+        "Region",
+        "Postcode"
+    ],
+    "Nicaragua": [
+        "Address",
+        "City",
+        "Department",
+        "Postal code"
+    ],
+    "Niger": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Nigeria": [
+        "Address",
+        "City",
+        "State"
+    ],
+    "Niue": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Norfolk Island": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "North Korea": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "North Macedonia": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Northern Mariana Islands": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Norway": [
+        "Address",
+        "Postal code",
+        "City"
+    ],
+    "Oman": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Pakistan": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Palestinian Territory": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Panama": [
+        "Address",
+        "City",
+        "Province",
+        "Postal code"
+    ],
+    "Papua New Guinea": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Paraguay": [
+        "Address",
+        "City",
+        "Department",
+        "Postal code"
+    ],
+    "Peru": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Philippines": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Pitcairn": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Poland": [
+        "Address",
+        "Postal code",
+        "City"
+    ],
+    "Portugal": [
+        "Address",
+        "City",
+        "Postal code"
+    ],
+    "Puerto Rico": [
+        "Address",
+        "Municipality",
+        "Postal code"
+    ],
+    "Qatar": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Reunion": [
+        "Address",
+        "City",
+        "Postal code"
+    ],
+    "Romania": [
+        "Address",
+        "City",
+        "County",
+        "Postal code"
+    ],
+    "Russia": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Rwanda": [
+        "Address",
+        "City",
+        "Postal code"
+    ],
+    "Saint Barthélemy": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Saint Helena": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Saint Kitts and Nevis": [
+        "Address",
+        "City",
+        "Parish",
+        "Postal code"
+    ],
+    "Saint Lucia": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Saint Martin (Dutch part)": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Saint Martin (French part)": [
+        "Address",
+        "City",
+        "Postal code"
+    ],
+    "Saint Pierre and Miquelon": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Saint Vincent and the Grenadines": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Samoa": [
+        "Address",
+        "City",
+        "State/County"
+    ],
+    "San Marino": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "São Tomé and Príncipe": [
+        "Address",
+        "City",
+        "District"
+    ],
+    "Saudi Arabia": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Senegal": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Serbia": [
+        "Address",
+        "City",
+        "District",
+        "Postal code"
+    ],
+    "Seychelles": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Sierra Leone": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Singapore": [
+        "Address",
+        "City",
+        "Postal code"
+    ],
+    "Slovakia": [
+        "Address",
+        "Postal code",
+        "City"
+    ],
+    "Slovenia": [
+        "Address",
+        "Postal code",
+        "City"
+    ],
+    "Solomon Islands": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Somalia": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "South Africa": [
+        "Address",
+        "City",
+        "Province",
+        "Postal code"
+    ],
+    "South Georgia/Sandwich Islands": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "South Korea": [
+        "Address",
+        "City",
+        "Postal code"
+    ],
+    "South Sudan": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Spain": [
+        "Address",
+        "Postal code",
+        "City",
+        "Province"
+    ],
+    "Sri Lanka": [
+        "Address",
+        "City",
+        "Postal code"
+    ],
+    "Sudan": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Suriname": [
+        "Address",
+        "City",
+        "State/County"
+    ],
+    "Svalbard and Jan Mayen": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Sweden": [
+        "Address",
+        "Postal code",
+        "City"
+    ],
+    "Switzerland": [
+        "Address",
+        "Postal code",
+        "City",
+        "Canton"
+    ],
+    "Syria": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Taiwan": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Tajikistan": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Tanzania": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Thailand": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Timor-Leste": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Togo": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Tokelau": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Tonga": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Trinidad and Tobago": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Tunisia": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Turkey": [
+        "Address",
+        "Postal code",
+        "City",
+        "Province"
+    ],
+    "Turkmenistan": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Turks and Caicos Islands": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Tuvalu": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Uganda": [
+        "Address",
+        "Town / Village",
+        "District"
+    ],
+    "Ukraine": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "United Arab Emirates": [
+        "Address",
+        "City",
+        "State/County"
+    ],
+    "United Kingdom (UK)": [
+        "Address",
+        "City",
+        "County",
+        "Postcode"
+    ],
+    "United States (US)": [
+        "Address",
+        "City",
+        "State",
+        "ZIP Code"
+    ],
+    "United States (US) Minor Outlying Islands": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Uruguay": [
+        "Address",
+        "City",
+        "Department",
+        "Postal code"
+    ],
+    "Uzbekistan": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Vanuatu": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Vatican": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Venezuela": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Vietnam": [
+        "Address",
+        "Postal code",
+        "City"
+    ],
+    "Virgin Islands (British)": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Virgin Islands (US)": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Wallis and Futuna": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Western Sahara": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Yemen": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Zambia": [
+        "Address",
+        "City",
+        "State/County",
+        "Postal code"
+    ],
+    "Zimbabwe": [
+        "Address",
+        "City",
+        "State/County"
+    ]
+}

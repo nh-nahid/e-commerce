@@ -3,7 +3,6 @@ import { defineConfig } from 'vite'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [],
-  base: "/e-commerce/",
   build: {
     target: 'esnext',
     rollupOptions: {
@@ -15,6 +14,7 @@ export default defineConfig({
         about: 'pages/about.html',
         shop: 'pages/shop.html',
         single: 'pages/single.html',
+        checkout: 'pages/checkout.html',
         
       },
     },

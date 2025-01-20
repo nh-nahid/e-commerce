@@ -12,5 +12,3 @@ const [productCategories, productCountries] = await showAllProducts()
  addOptionsToCountryFilter(productCountries)
  handleSearchFilter()
  addPriceRangeFilter()
-
- 
