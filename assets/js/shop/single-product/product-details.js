@@ -14,7 +14,6 @@ export const showProductDetails = async (productID) =>{
         const description = document.querySelector('.product-description');
         const addToCartEl = document.querySelector('#cart');
         const wishlistEl = document.querySelector('#wishlist');
-        const quantityInputEl = document.querySelector('#quantity');
 
 
         image1.src = product.image;
