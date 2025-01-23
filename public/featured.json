@@ -1,0 +1,119 @@
+
+[
+    {
+
+      "id": 1,
+      "title": "Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin",
+      "price": "399",
+      "salePrice":  "299",
+      "description": "21. 5 inches Full HD (1920 x 1080) widescreen IPS display And Radeon free Sync technology. No compatibility for VESA Mount Refresh Rate: 75Hz - Using HDMI port Zero-frame design | ultra-thin | 4ms response time | IPS panel Aspect ratio - 16: 9. Color Supported - 16. 7 million colors. Brightness - 250 nit Tilt angle -5 degree to 15 degree. Horizontal viewing angle-178 degree. Vertical viewing angle-178 degree 75 hertz",
+      "category": "Electronics",
+      "image": "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
+      "country": "Bangladesh",
+      "rating": {
+        "rate": 2.9,
+        "count": 250
+      }
+     
+    },
+    {
+      "id": 2,
+      "title": "Samsung Galaxy Tab A 8.0 32 GB Wifi Tablet Black (2019)",
+      "price": "299",
+      "salePrice": "199",
+      "description": "Minimum bezel; Maximum view: Designed with a minimized bezel, giving you more room to view your favorite content in a slim, comfortable form; The premium metallic finish and lightweight design make it easy to use around the house or on the go Entertainment ready: An 8.0 inches display immerses you in content, and dual speakers deliver spacious surround sound Binge ready Battery: Browse, watch or shop for up to 13 hours on a full charge Room for everything: Keep your favorite songs, photos or videos, thanks to 32GB of built in memory; Plus expand your storage up to 512GB anytime With a Micro SD card",
+      "category": "Electronics",
+      "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+      "country": "Bangladesh",
+      "rating": {
+        "rate": 3.9,
+        "count": 250
+      }
+    },
+    {
+      "id": 3,
+      "title": "New Apple iPad Pro (12.9-inch, Wi-Fi, 128GB) - Silver (4th Generation)",
+      "price": "999",
+      "salePrice": "899",
+      "description": "12.9-inch edge-to-edge Liquid Retina display with ProMotion, True Tone, and P3 wide color A12Z Bionic chip with Neural Engine 12MP Wide camera, 10MP Ultra Wide camera, and LiDAR Scanner 7MP TrueDepth front camera Face ID for secure authentication and Apple Pay Four speaker audio and five studio-quality microphones 802.11ax Wi-Fi 6 Up to 10 hours of battery life USB-C connector for charging and accessories Support for Magic Keyboard, Smart Keyboard Folio, and Apple Pencil",
+      "category": "Electronics",
+      "image": "https://fakestoreapi.com/img/81w5e77eyML._AC_SX679_.jpg",
+      "country": "Bangladesh",
+      "rating": {
+        "rate": 4.9,
+        "count": 250
+      }
+    },
+    {
+     
+    "id": 4,
+    "title": "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s High performance... ",
+    "price": "2500",
+    "salePrice": "2250",
+    "description": "Easy upgrade for faster boot up, shutdown, application load and response (As compared to 5400 RPM SATA 2.5” hard drive; Based on published specifications and internal benchmarking tests using PCMark vantage scores) Boosts burst write performance, making it ideal for typical PC workloads The perfect balance of performance and reliability Read/write speeds of up to 535MB/s/450MB/s (Based on internal testing; Performance may vary depending upon drive capacity, host device, OS and application.)",
+    "category": "Electronics",
+    "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+    "country": "Ireland",
+    "rating": {
+      "rate": 2.9,
+      "count": 470
+    }
+},
+{
+    "id": 5,
+    "title": "SAMSUNG 32-Inch Odyssey G55C Series QHD 1000R Curved Gaming Monitor, 1ms(MPRT), HDR10...",
+    "price": "1199",
+    "salePrice": "980",
+    "description": "Expand your PS4 gaming experience, Play anywhere Fast and easy, setup Sleek design with high capacity, 3-year manufacturer's limited warranty",
+    "category": "Electronics",
+    "image": "https://m.media-amazon.com/images/I/81cYQ1dO5xL._AC_SL1500_.jpg",
+    "country": "France",
+    "rating": {
+      "rate": 4.8,
+      "count": 400
+    }
+  
+  },
+  {
+    "id": 6,
+    "title": "Video Camera Camcorder Full HD 1080P 30FPS 24.0 MP IR Night Vision Vlogging Camera Recorder 3.0 ...",
+    "price": "1499",
+    "salePrice": "1580",
+    "description": "USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance High Capacity; Compatibility Formatted NTFS for Windows 10, Windows 8.1, Windows 7; Reformatting may be required for other operating systems; Compatibility may vary depending on user’s hardware configuration and operating system",
+    "category": "Electronics",
+    "image": "https://m.media-amazon.com/images/I/71vmlTf9YJL._AC_SL1500_.jpg",
+    "country": "China",
+    "rating": {
+      "rate": 3.3,
+      "count": 203
+    }
+  },
+  {
+    "id": 7,
+    "title": "Motorcycle Phone Mount Holder, Bike Phone Holder, Phone Holder for Bike with Dual Vibration Dampener",
+    "price": "3500",
+    "salePrice": "2650",
+    "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+    "category": "Jewelery",
+    "image": "https://m.media-amazon.com/images/I/81uv8HZ5olL._AC_SL1500_.jpg",
+    "country": "Bangladesh",
+    "rating": {
+      "rate": 4.6,
+      "count": 400
+    }
+  },
+  {
+    "id": 8,
+    "title": "Canon MegaTank G3270 All-in-One Wireless Inkjet Printer. for Home Use, Print, Scan and Copy, Black",
+    "price": "699",
+    "salePrice": "580",
+    "description": "Designed for high endurance so you can record for up to 20,000 hours with no worries (Actual hours of video saved less. Full HD (1920x1080) video only; total hours less for 4K UHD (3840 x 2160) video.)",
+    "category": "Electronics",
+    "image": "https://m.media-amazon.com/images/I/71bB0ZWpE2L._AC_SL1500_.jpg",
+    "country": "China",
+    "rating": {
+      "rate": 3.9,
+      "count": 70
+    }
+  }
+]

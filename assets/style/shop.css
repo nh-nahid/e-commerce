@@ -19,7 +19,7 @@
 .product-container{
     width: calc(calc(100% - 60px)/4);
     margin-top: 40px;
-
+    
 }
 
 .product-img > img{

@@ -53,37 +53,170 @@ body{
   }
 
   .hero-btn:hover{
-    background-color:  #1b9ca5;
+    background-color: #013725;
+    border-color: #013725;
+  }
+  .hero-btn>a:hover{
     color: white;
   }
-.featured-title > h1{
-  text-align: center;
-  margin-top: 40px;
-}
-  .featured{
+
+  /* Services */
+
+  .services{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    gap: 40px;
-    margin-top: 30px;
+    text-align: center;
+    margin-top: 100px;
   }
+  .services>div>h3{
+    margin-bottom: 0;
+  }
+  .services>div>p{
+    margin-top: 0;
+  }
+  /* Featured design */
 
-  .featured1-img{
-    width: 380px;
-    height: 250px;
-    border-radius: 25px 0 25px 0;
-    position: relative;
-    z-index: -1;
+  .featured-title{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Quicksand';
+    margin-top: 70px;
+    margin-bottom: 0;
   }
-  .featured2-img{
-    width: 380px;
-    height: 250px;
-    border-radius: 25px 0 25px 0;
+  .all-featured-products{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+  }
+  .feature-section{
+    margin: 0 30px;
+  }
+  .featured-product{
+    width: calc(calc(100% - 60px)/4);
+    margin-top: 40px;
+    text-align: center;
+    
+  }
+  .featured-product>div>img{
+    border-radius: 10px;
+    max-width: 100%;
+    width: 300px;
+    height: 220px;
+  }
+  .featured-product>div>h4{
+    margin: 8px 0 0 25px;
 
+   text-align: left;
+   font-size: 18px;
   }
-  .featured3-img{
-    width: 380px;
-    height: 250px;
-    border-radius: 25px 0 25px 0;
+  
+  .featured-product>div>p{
+    margin: 2px 0 0 25px;
+    text-align: left;
+   }
+   .featured-product>div>p>i{
+    color: #09A90B;
+   }
+   .featured-product>div>button{
+    color: black;
+    border: 1px solid black;
+    font-size: 14px;
+    border-radius: 25px;
+    padding: 10px 22px;
+    margin-top: 10px;
+    transition: all 0.4s;
+    cursor: pointer;
+   }
 
-  }
+   .featured-product>div>button:hover{
+    background-color: #013725;
+    color: white;
+   }
+   .featured-btn{
+    text-align: left;
+    margin: 0 0 0 20px;
+   }
+   .review-star{
+    font-family: 'Quicksand';
+    font-size: 15px;
+   }
+
+   /* footer */
+.footer{
+  background-color: #000000;
+
+}
+   .footer-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px 80px;
+    margin-top: 100px;
+    font-family: 'quickSand';
+   }
+.footer-container>.email-subscribe{
+  text-align: left;
+}
+   .footer-container>div{
+    width: calc(calc(100% - 60px)/5);
+    margin-top: 40px;
+    text-align: center;
+   }
+   .footer-container>div>h3{
+    color: white;
+    text-align: left;
+   }
+   .footer-container>div>h4{
+    color: white;
+    text-align: left;
+   }
+   .footer-container>div>p{
+    color: white;
+    font-size: 12px;
+    text-align: left;
+   }
+   .footer-container>div>input{
+    background-color: transparent;
+    border-radius: 3px;
+    padding-top: 5px;
+    width: 80%;
+    outline: none;
+    cursor: pointer;
+   }
+   .footer-container>div>ul{
+    color: white;
+    font-size: 12px;
+    padding-left: 0;
+   }
+   .footer-container>div>ul>li{
+    list-style: none;
+    margin: 10px 0;
+    text-align: left;
+   }
+
+   .social-icons{
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+    margin-top: 20px;
+   }
+
+   .footer-container>div>img{
+    text-align: left;
+   }
+   .footer>p{
+    color: gray;
+    font-family: "Quicksand";
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 30px;
+   }
+
+   .download-app{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+   }
