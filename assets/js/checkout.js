@@ -17,7 +17,7 @@ async function addCountryList() {
     let allFields = {};
 
     try {
-        const response = await fetch("/address-fields.json");
+        const response = await fetch("../address-fields.json");
         const data = await response.json();
         allFields = data;
         Object.keys(data).forEach(country => {
