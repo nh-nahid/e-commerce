@@ -94,7 +94,7 @@ const offCanvasCartFooter = async () => {
   <div><h4>Shipping Cost: $ ${shippingCost.toFixed(2)}</h4></div>
   <hr>
   <div><h4>Total: $ ${(cartTotalPrice + tax + shippingCost).toFixed(2)}</h4></div>
-  <div><a href="../../../../pages/checkout.html">Checkout</a></div>
+  <div><a href="../../../../e-commerce/pages/checkout.html">Checkout</a></div>
 `
 }
 
