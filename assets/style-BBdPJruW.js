@@ -36,7 +36,7 @@
   <div><h4>Shipping Cost: $ ${u.toFixed(2)}</h4></div>
   <hr>
   <div><h4>Total: $ ${(o+s+u).toFixed(2)}</h4></div>
-  <div><a href="../../../pages/checkout.html">Checkout</a></div>
+  <div><a href="../../../../pages/checkout.html">Checkout</a></div>
 `},Y=()=>{const s=yt().map(u=>new Promise(h=>{vt(u).then(c=>{const f=JSON.parse(localStorage.getItem("dom-commerce-cart-product")).find(p=>Number(p.productId)===Number(u)).productQuantity;h({quantity:Number(f),imageLink:c.image,productCategory:c.category,productTilte:c.title,productPrice:"$ "+gt(c.price,c.salePrice),productId:c.id})})}));Promise.all(s).then(u=>{const h=document.querySelector(".cart-product-container");h.innerHTML="",u.forEach(c=>{Dt(c)})}).finally(()=>{const u=document.querySelectorAll(".off-canvas-btn.increase"),h=document.querySelectorAll(".off-canvas-btn.decrease"),c=document.querySelectorAll(".off-canvas-cart-remove");u.forEach(f=>{f.addEventListener("click",function(){const p=document.querySelector(".off-cart-quantity");p.value=parseInt(p.value)+1,pt(f.dataset.productId,p.value),V()})}),h.forEach(f=>{f.addEventListener("click",function(){const p=document.querySelector(".off-cart-quantity");p.value>1&&(p.value=parseInt(p.value)-1,pt(f.dataset.productId,p.value),V())})}),c.forEach(f=>{f.addEventListener("click",function(){Pt(f.dataset.productId),Y()})})})},Nt=document.querySelector("#login-item");_t()&&(Nt.style.display="none");const At=document.querySelector(".view-cart");At.addEventListener("click",function(o){o.preventDefault(),St()});A().then(o=>{const s=document.createElement("div");s.innerHTML=`
             <div class="priceMeter">
                 <div>Item : <span class="priceMeterItemNumber">${o.totalCartItem}</span></div>
