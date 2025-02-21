@@ -13,6 +13,7 @@ import { addProductToCart } from "./shop/single-product/cart";
     const tempTitle = product.title;
     const resultTitle = tempTitle.substring(0, 60);
     const resultDescription = tempDescription.substring(0, 100);
+    
     /*html*/
     featuredProductContainer.innerHTML += `
     <div class="featured-product">
