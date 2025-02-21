@@ -21,7 +21,7 @@ export function isInRange(number, min, max) {
 
 export const getAllProductsFromAPI = async () => {
   if (!Array.isArray(window.allProductsData)) {
-    const productsResponse = await fetch("../products.json");
+    const productsResponse = await fetch("/e-commerce/products.json");
     const productData = await productsResponse.json();
     window.allProductsData = productData;
   }
@@ -72,7 +72,7 @@ export const getTotalCartData = async () => {
         ).productQuantity;
         resolve(
           getProductPrice(
-            Number(productDetails.price),
+            Number(productDetails.price),                        
             Number(productDetails.salePrice)
           ) * quantity
         );

@@ -313,7 +313,7 @@ margin-right: 15px;
     font-size: 18px;
     opacity: 0.7;
     transition: background 0.5s;
-    font-family: 'teko' !important;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .priceMeter:hover{
@@ -321,7 +321,8 @@ margin-right: 15px;
 }
 
 .odometer-inside{
-  font-family: 'teko' !important;
+  font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .off-canvas-horizontal-line{

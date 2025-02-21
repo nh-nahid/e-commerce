@@ -1,7 +1,7 @@
 import { getTotalCartData} from "../../utils";
 import { offCanvasCart } from "../off-canvas/off-canvas";
 
-const addProductToCart = async (productId, productQuantity) => {
+export const addProductToCart = async (productId, productQuantity) => {
 
     const prevCartData = JSON.parse(localStorage.getItem('dom-commerce-cart-product')) ?? []
   
@@ -23,7 +23,6 @@ const addProductToCart = async (productId, productQuantity) => {
   
     const cartData  = await getTotalCartData()
     priceMeterPrice.innerHTML = cartData.totalPrice
-
     priceMeterItem.innerText = cartData.totalCartItem
 
 }
@@ -41,21 +40,11 @@ export const removeCartItem = (productId) => {
     }
 }
 
-// const addCartMsg = () => {
-//     const addToCartMsg = document.querySelector('.add-to-cart-msg');
-
-//     addToCartMsg.classList.add('.add-cart-msg-success');
-//     setTimeout(() => {
-//         addToCartMsg.classList.remove('.add-cart-msg-success');
-//       }, 1500)
-//   }
-
 
 export const cartButtonInit = () => {    
     const addToCartEl = document.querySelector('#cart');
     const productId = addToCartEl.dataset.productId;
     addToCartEl.addEventListener('click', () => {
-                
         const quantity = document.querySelector('#quantity').value;
         addProductToCart(productId,quantity).then(() => {
             offCanvasCart()
@@ -65,6 +54,8 @@ export const cartButtonInit = () => {
     }
         
 )}
+
+
 
 export const refreshOdometer = () => {
     const priceMeterPrice = document.querySelector('.priceMeterSubtotal');

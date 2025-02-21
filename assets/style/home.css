@@ -112,7 +112,11 @@ body{
    text-align: left;
    font-size: 18px;
   }
-  
+  .featured-salePrice{
+    color: brown;
+    font-size: 20px;
+    font-weight: 600;
+  }
   .featured-product>div>p{
     margin: 2px 0 0 25px;
     text-align: left;
