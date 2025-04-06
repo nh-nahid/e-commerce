@@ -9,6 +9,8 @@ import { addProductToCart } from "./shop/single-product/cart";
   data.forEach((product) => {
 
     const featuredProductContainer = document.querySelector(".all-featured-products");
+    const feauturedProductId = product.id
+    const featuredProductImage = product.image;    
     const tempDescription = product.description;
     const tempTitle = product.title;
     const resultTitle = tempTitle.substring(0, 60);
@@ -17,7 +19,7 @@ import { addProductToCart } from "./shop/single-product/cart";
     /*html*/
     featuredProductContainer.innerHTML += `
     <div class="featured-product">
-    <div><img src="${product.image}" alt=""></div>
+    <div><img src="${featuredProductImage}" alt=""></div>
     <div>
       <h4>${resultTitle} ....</h4>
     </div>
@@ -41,11 +43,11 @@ import { addProductToCart } from "./shop/single-product/cart";
 }
 fetchFeaturedProducts().then(function(){
   const allcartbtn = document.querySelectorAll(".featured-cart-btn")
-  console.log(allcartbtn)
   allcartbtn.forEach((btn) => {
     btn.addEventListener('click', (e) => {
       const productId = e.target.dataset.id;
-      console.log("clicked")
+      console.log(productId);
+      
       addProductToCart(productId, 1)
     })
   })
