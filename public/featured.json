@@ -8,7 +8,7 @@
       "salePrice":  "47",
       "description": "1080P Adjustable FPV Drone: Equipped with 1080P HD camera and 90° remote controller adjustable lens this drone can bring you a stunning aerial photography experience from different perspectives to broaden your views. By connecting the drone with ”DAZLEN FPV” APP, it allows you to view the fabulous scenery in live through the FPV technolog, immerse yourself in the excitement of the distant aerial exploration and share the extraordinary moments with friends on social media.",
       "category": "Drone",
-      "image": "./assets/home-pic/drone.jpg", 
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF7uliBLxR8J70ZJrtKmSIl6m93wxuJEZ2DA&s", 
       "country": "Bangladesh",
       "rating": {
         "rate": 2.9,
@@ -23,7 +23,7 @@
       "salePrice": "188",
       "description": " With its thin and light design, 6.5 mm micro-edge bezel display, and 79% screen-to-body ratio, you will take this PC anywhere while you see and do more of what you love (1)",
       "category": "Laptop",
-      "image": "./assets/home-pic/laptop.jpg",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqr3TImfkuvQ2AlB166bozDL1A0a6H0OkB0A&s",
       "country": "Bangladesh",
       "rating": {
         "rate": 3.9,
@@ -37,7 +37,7 @@
       "salePrice": "64",
       "description": "ICONIC ERGONOMIC FORM WITH 9 CUSTOMIZABLE CONTROLS — Favored by millions worldwide, the mouse’s signature shape perfectly supports different grips, while its numerous easy-access buttons allow for an endless combination of commands and macros",
       "category": "Mouse",
-      "image": "./assets/home-pic/mouse.jpg",
+      "image": "https://img.freepik.com/premium-photo/black-computer-mouse-black-background_721289-610.jpg",
       "country": "Bangladesh",
       "rating": {
         "rate": 4.9,
@@ -52,7 +52,7 @@
     "salePrice": "108",
     "description": "Bluetooth Call and Voice Assistant: Smart watch built-in microphone and HD speaker, you can make and receive calls directly from this smart watches for men. You can also use the built-in voice assistant to ask questions, control music playback and more",
     "category": "",
-    "image": "./assets/home-pic/smart-watch.jpg",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr1IZgchxd87I4PXJ0blF6MnmslfYZeJUAdg&s",
     "country": "Ireland",
     "rating": {
       "rate": 2.9,
